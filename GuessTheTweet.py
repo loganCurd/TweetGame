@@ -127,8 +127,6 @@ class GuessTheTweet:
     def run(self):
         play_again = True
 
-        print(len(self.tweets))
-
         while play_again:
             self.play_round()
             play_again = self.play_again()
